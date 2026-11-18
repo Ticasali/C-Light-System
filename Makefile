@@ -13,7 +13,7 @@
 # ⢸⡇⠀⠀⠀Fichier : Makefile                                ⠀⠀⠐⠂⠀⢸⣿⠁⣰⣿⡟⠀⠀⢸⡆⠀⠀⠀⢀⡴⠋⢹⡟⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇
 # ⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠂⠀⠘⣷⣼⡟⢻⠀⠀⠀⠈⢷⠀⠀⠀⠈⠀⠀⢀⡇⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇
 # ⢸⡇⠀⠀⠀Creation: 2026/11/18 02:06:35                     ⠀⠀⠐⠂⠀⠀⢻⡗⠀⠘⡆⠐⣄⠀⠈⢷⡀⠀⣠⣤⣶⠟⠁⠀⠀⠀⠀⢠⡞⠛⢦⣄⠀⠀⠀⠀⠀⢸⡇
-# ⢸⡇⠀⠀⠀M.a.j.  : 2026/11/18 03:09:16                     ⠀⠀⠐⠂⠀⠀⠈⢷⡀⠀⠘⢤⠀⠙⠢⣄⣙⠮⣿⣿⣿⣶⣶⣤⣤⣤⡴⠋⠀⠀⠀⠈⠛⠶⣄⡀⠀⢸⡇
+# ⢸⡇⠀⠀⠀M.a.j.  : 2026/11/18 06:09:59                     ⠀⠀⠐⠂⠀⠀⠈⢷⡀⠀⠘⢤⠀⠙⠢⣄⣙⠮⣿⣿⣿⣶⣶⣤⣤⣤⡴⠋⠀⠀⠀⠈⠛⠶⣄⡀⠀⢸⡇
 # ⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠂⠀⠀⠀⠀⢷⡄⠀⠀⢙⣢⣤⣤⣬⣭⣶⣯⣿⣿⣯⣿⣻⣏⣿⣶⣀⣠⣤⣤⡴⠞⢩⡿⠀⢸⡇
 # ⢸⡇⠀⠀⠀Propriete : Ticasali⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠂⠀⠀⠀⠀⠀⠻⣶⣾⣿⣿⣿⢿⣿⣟⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⢀⣴⠟⠀⠀⢸⡇
 # ⢸⡇⠀⠀⠀Copyright (c) 2026 Ticasali.⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠂⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣷⣿⣿⢿⣟⣛⣛⣭⡭⠽⠶⠛⠋⠉⠀⠀⣀⣴⠟⠀⠀⠀⠀⢸⡇
@@ -22,38 +22,50 @@
 # ⠀⠈⠻⣦⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣶⠚⠋⠙⠓⢶⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⠞⠁⠀
 # ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠲⠖⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-NAME = c_light_system_library.a
+NAME 		= c_light_system_library.a
 
-SRCDIR = src
-OBJDIR = .obj
-INCDIR = include
+SRCDIR 		= src
+OBJDIR 		= .obj
+INCDIR 		= include
+LIBDIR 		= libs
 
-SRCS = test.c 		\
+CLCDIR 		= $(LIBDIR)/core
+CLCINC		= $(CLCDIR)/include
+CLCLIB 		= $(CLCDIR)/c_light_core_library.a
 
-OBJS = $(patsubst %.c,$(OBJDIR)/%.o,$(SRCS))
+SRCS 		= $(addprefix $(SRCDIR)/, \
+				test.c)
 
-CFLAGS = -Werror -Wextra -Wall -pedantic -MD -MP -I $(INCDIR) -g3
-AR = ar -rcs
-DEPFLAGS = -MMD -MP
+OBJS 		= $(patsubst %.c,$(OBJDIR)/%.o,$(SRCS))
+DEPS 		= $(OBJS:.o=.d)
+
+CFLAGS 		= -Werror -Wextra -Wall -pedantic -MD -MP -I $(INCDIR) -I $(CLCINC) -g3
+AR 			= ar -rcs
+DEPFLAGS 	= -MMD -MP
+
+$(NAME): 	$(OBJS) $(CLCLIB)
+			$(AR) $(NAME) $(OBJS)
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.c
-	@mkdir -p $(dir $@)
-	$(CC) $(CFLAGS) -c $< -o $@
+			@mkdir -p $(dir $@)
+			$(CC) $(CFLAGS) $(DEPFLAGS) -c $< -o $@
 
-all: $(NAME)
+$(CLCLIB):	FORCE
+			$(MAKE) -C $(CLCDIR)
 
-$(NAME): $(OBJS)
-	$(AR) $(NAME) $(OBJS)
+all: 		$(NAME)
 
 clean:
-	rm -rf $(OBJDIR)
+			rm -rf $(OBJDIR)
+			$(MAKE) clean -C $(CLCDIR)
 
-fclean: clean
-	rm -f $(NAME)
+fclean:		clean
+			rm -f $(NAME)
+			$(MAKE) fclean -C $(CLCDIR)
 
-re: fclean
-	make all
+re: 		fclean
+			make all
 
--include $(OBJS:.o=.d)
+-include 	$(DEPS)
 
-.PHONY: all clean fclean re
+.PHONY: 	all clean fclean re FORCE
